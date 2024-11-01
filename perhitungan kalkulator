@@ -1,0 +1,28 @@
+# Fungsi kalkulator
+def kalkulator(angka1, angka2, operator):
+    if operator == '+':
+        return angka1 + angka2
+    elif operator == '-':
+        return angka1 - angka2
+    elif operator == '*':
+        return angka1 * angka2
+    elif operator == '/':
+        if angka2 !=0:
+            return angka1 / angka2
+        else:
+            return "error: operator tidak valid!"
+    else:
+        return "error: operator tidak valid!"
+    
+try:
+    angka1 = float(input("masukkan angka pertama: "))
+    angka2 = float(input("masukkan angka kedua: "))
+    operator = input("masukkan operator(+, -, *, /): ")
+
+    # Menghitung hasil
+    hasil = kalkulator(angka1, angka2, operator)
+    print(f"hasil: {hasil}")
+
+except ValueError:
+    print("error: masukkan angka yang valid!")
+    
