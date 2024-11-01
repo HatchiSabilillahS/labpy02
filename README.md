@@ -1,3 +1,5 @@
-![gambar](https://github.com/user-attachments/assets/621666df-4c21-438a-869a-09214bc5d495)
-![gambar](https://github.com/user-attachments/assets/6abcc3f2-8182-427f-a3ff-5b38318dec93)
-![gambar](https://github.com/user-attachments/assets/d997d1d7-7ac0-456d-ac8a-1b6a3270d246)
+kasus1![gambar](https://github.com/user-attachments/assets/621666df-4c21-438a-869a-09214bc5d495)
+kasus1![gambar](https://github.com/user-attachments/assets/6abcc3f2-8182-427f-a3ff-5b38318dec93)
+kasus1![gambar](https://github.com/user-attachments/assets/d997d1d7-7ac0-456d-ac8a-1b6a3270d246)
+kasus2![gambar](https://github.com/user-attachments/assets/e2e3ddc8-19c8-4e5a-9201-b1910ebc60ef)
+KASUS2![gambar](https://github.com/user-attachments/assets/6586942c-56d1-4f44-99b1-134216909308)
