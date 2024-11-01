@@ -1,0 +1,29 @@
+# Harga tiket
+harga_tiket_reguler = 50000
+harga_tiket_vip = 100000
+diskon_number = 2.0  # Diskon 20% untuk member
+
+# Input tipe tiket dari user
+tipe_tiket = input("masukkan tipe tiket (reguler/vip): ").strip().lower()
+
+# Validasi tipe tiket
+if tipe_tiket not in ["reguler", "vip"]:
+    print("tipe tiket tidak valid. Masukkan 'reguler' atau 'vip'.")
+else:
+    # Input member dari user
+    status_member = input("apakah anda memiliki kartu member? (ya/tidak): ").strip().lower()
+
+    # Tentukan harga tiket sesuai tipe
+    if tipe_tiket == "reguler":
+        harga_tiket = harga_tiket_reguler
+    elif tipe_tiket == "vip":
+        harga_tiket = harga_tiket_vip
+
+    # Cek apakah user memiliki kartu member untuk diskon
+    if status_member == "ya":
+        total_harga = int(harga_tiket / diskon_number)
+    else:
+        total_harga = harga_tiket
+
+    # Tampilkan total harga yang harus dibayar
+    print(f"total harga yang harus dibayar: Rp{int(total_harga)}")
